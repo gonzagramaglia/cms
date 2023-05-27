@@ -11,7 +11,7 @@ during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.
 
 📌 **LIVE DEMO: _https://blog.gonza.uno/_**
 
-[![Blog Demo Preview](https://postimg.cc/F1Zh1qvT)
+[![Blog Demo Preview](https://i.postimg.cc/F1Zh1qvT/demo-preview.png)](https://i.postimg.cc/F1Zh1qvT/demo-preview.png)
 
 <br><br><br>
 
@@ -29,11 +29,11 @@ to add info to fetch in the process of building and testing the website
 ```bash
 npx create-next-app --tailwind with-tailwindcss-app
 ```
-✔ Would you like to use TypeScript with this project? … No / Yes
-✔ Would you like to use ESLint with this project? … No / Yes
-✔ Would you like to use src/ directory with this project? … No / Yes
-✔ Use App Router (recommended)? … No / Yes
-✔ Would you like to customize the default import alias? … No / Yes
+✔ Would you like to use TypeScript with this project? … <u>No</u> / Yes<br>
+✔ Would you like to use ESLint with this project? … <u>No</u> / Yes<br>
+✔ Would you like to use src/ directory with this project? … <u>No</u> / Yes<br>
+✔ Use App Router (recommended)? … <u>No</u> / Yes<br>
+✔ Would you like to customize the default import alias? … <u>No</u> / Yes
 
 <br>
 
