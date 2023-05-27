@@ -27,7 +27,7 @@ _https://hygraph.com/_
 
 #### Structure initialization:
 ```bash
-npx create-next-app --tailwind with-tailwindcss-app
+npx create-next-app --tailwind blog
 ```
 ✔ Would you like to use TypeScript with this project? … <u>No</u> / Yes<br>
 ✔ Would you like to use ESLint with this project? … <u>No</u> / Yes<br>
