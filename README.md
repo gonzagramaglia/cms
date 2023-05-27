@@ -20,8 +20,8 @@ during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.
 
 
 #### Setting up an account in Hygraph:
-https://hygraph.com/ 
-to add info to fetch in the process of building and testing the website
+_https://hygraph.com/_
+(to add info to fetch in the process of building and testing the website)
 
 <br>
 
@@ -40,25 +40,25 @@ npx create-next-app --tailwind with-tailwindcss-app
 #### Dependencies that were used, along with the command to install them:
 
 * **GraphQL**
-_Official website: https://graphql.org/ (a query language for APIs)
+_Official website: https://graphql.org/_ (a query language for APIs)
 
 * **graphql-request**
-_Official website: https://github.com/jasonkuhrt/graphql-request#readme (most simple & lightweight GraphQL client)
+_Official website: https://github.com/jasonkuhrt/graphql-request#readme_ (most simple & lightweight GraphQL client)
 
 * **HTML to React parser**
-_Official website: https://github.com/remarkablemark/html-react-parser#readme (converts an HTML string to one or more React elements)
+_Official website: https://github.com/remarkablemark/html-react-parser#readme_ (converts an HTML string to one or more React elements)
 
 * **Moment.js**
-_Official website: https://momentjs.com/ (for parsing, manipulating, and formatting dates and times)
+_Official website: https://momentjs.com/_ (for parsing, manipulating, and formatting dates and times)
 
 * **React Multi Carousel**
-_Official website: https://react-multi-carousel.surge.sh/ (production-ready, lightweight fully customizable React carousel component)
+_Official website: https://react-multi-carousel.surge.sh/_ (production-ready, lightweight fully customizable React carousel component)
 
 * **SASS**
-_Official website: https://sass-lang.com/ (CSS with superpowers)
+_Official website: https://sass-lang.com/_ (CSS with superpowers)
 
 * **React Icons**
-_Official website: https://github.com/react-icons/react-icons_ (to use icons)
+_Official website: https://github.com/react-icons/react-icons__ (to use icons)
 
 ```bash
 npm install -legacy-peer-deps graphql graphql-request html-react-parser moment react-multi-carousel sass react-icons
