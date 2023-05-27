@@ -25,10 +25,15 @@ _https://hygraph.com/_
 
 <br>
 
+#### Blog folder
+Create project folder, open it in VSCode and open terminal
+
 #### Structure initialization:
 ```bash
-npx create-next-app --tailwind blog
+npx create-next-app --tailwind . 
 ```
+(By using the period (.) after the command, you tell Next.js to create the project in the current folder instead of creating a new folder with the name of the project)
+
 ✔ Would you like to use TypeScript with this project? … <u>No</u> / Yes<br>
 ✔ Would you like to use ESLint with this project? … <u>No</u> / Yes<br>
 ✔ Would you like to use src/ directory with this project? … <u>No</u> / Yes<br>
