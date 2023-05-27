@@ -11,7 +11,7 @@ during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.
 
 📌 **LIVE DEMO: _https://blog.gonza.uno/_**
 
-[![Blog Demo Preview](https://i.postimg.cc/F1Zh1qvT/demo-preview.png)](https://i.postimg.cc/F1Zh1qvT/demo-preview.png)
+[![Blog Demo Preview](https://i.postimg.cc/VLyvZQVP/demo-preview.png)](https://i.postimg.cc/VLyvZQVP/demo-preview.png)
 
 <br><br><br>
 
