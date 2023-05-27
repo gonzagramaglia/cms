@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google'
+import { FaGithub } from 'react-icons/fa';
 import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -10,7 +11,9 @@ export default function Home() {
         <title>Blog</title>
         <link rel='icon' href='/react-logo.png'/>
       </Head>
-      <h1 className='mt-16 text-3xl'>Hello Next!</h1>
+      <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
+
+      </div>
     </div>
   )
 }

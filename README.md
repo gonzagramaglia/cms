@@ -57,6 +57,9 @@ _Official website: https://react-multi-carousel.surge.sh/ (production-ready, lig
 * **SASS**
 _Official website: https://sass-lang.com/ (CSS with superpowers)
 
+* **React Icons**
+_Official website: https://github.com/react-icons/react-icons_ (to use icons)
+
 ```bash
-npm install graphql graphql-request html-react-parser moment react-multi-carousel sass
+npm install -legacy-peer-deps graphql graphql-request html-react-parser moment react-multi-carousel sass react-icons
 ```
