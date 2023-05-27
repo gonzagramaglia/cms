@@ -3,7 +3,7 @@ It's good to see that you have been interested in understanding this repository.
 
 
 
-First of all I want to thank JavaScript Mastery ([jmastery.pro](https://www.jsmastery.pro/)) 
+I want to thank JavaScript Mastery ([jmastery.pro](https://www.jsmastery.pro/)) 
 who was my guide in the development adventure of this project, 
 during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.youtube.com/watch?v=HYv55DhgTuA)** tutorial 👌<br><br><br>
 
@@ -19,9 +19,44 @@ during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.
 
 
 
-#### Creation of the React project template using Vite:
+#### Setting up an account in Hygraph:
+https://hygraph.com/ 
+to add info to fetch in the process of building and testing the website
+
+<br>
+
+#### Structure initialization:
 ```bash
-npm create vite@latest ./ -- --template react
+npx create-next-app --tailwind with-tailwindcss-app
 ```
+✔ Would you like to use TypeScript with this project? … No / Yes
+✔ Would you like to use ESLint with this project? … No / Yes
+✔ Would you like to use src/ directory with this project? … No / Yes
+✔ Use App Router (recommended)? … No / Yes
+✔ Would you like to customize the default import alias? … No / Yes
 
+<br>
 
+#### Dependencies that were used, along with the command to install them:
+
+* **GraphQL**
+_Official website: https://graphql.org/ (a query language for APIs)
+
+* **graphql-request**
+_Official website: https://github.com/jasonkuhrt/graphql-request#readme (most simple & lightweight GraphQL client)
+
+* **HTML to React parser**
+_Official website: https://github.com/remarkablemark/html-react-parser#readme (converts an HTML string to one or more React elements)
+
+* **Moment.js**
+_Official website: https://momentjs.com/ (for parsing, manipulating, and formatting dates and times)
+
+* **React Multi Carousel**
+_Official website: https://react-multi-carousel.surge.sh/ (production-ready, lightweight fully customizable React carousel component)
+
+* **SASS**
+_Official website: https://sass-lang.com/ (CSS with superpowers)
+
+```bash
+npm install graphql graphql-request html-react-parser moment react-multi-carousel sass
+```
