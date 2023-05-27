@@ -11,7 +11,7 @@ export default function Home() {
           <title>Blog</title>
           <link rel='icon' href='/react-logo.png'/>
         </Head>
-        <nav className='sm:px-16 w-full h-[110px] flex items-center fixed top-0 z-20 bg-[#050816]'>
+        <nav className='w-full h-[110px] flex items-center fixed top-0 z-20 bg-[#050816]'>
           <a 
               href="https://www.gonza.uno/" 
               className='pl-[65px]'
