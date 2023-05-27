@@ -1,19 +1,27 @@
-# Next.js + Tailwind CSS Example
+## Hey, I'm **[gonza](https://www.gonza.uno/)**
+It's good to see that you have been interested in understanding this repository.<br><br>
 
-Tailwind CSS is integrated into the `create-next-app` CLI, which supports TypeScript and JavaScript, as well as the App Router (`app/`) and the pages directory `pages/`.
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap a project preconfigured with Tailwind CSS:
+First of all I want to thank JavaScript Mastery ([jmastery.pro](https://www.jsmastery.pro/)) 
+who was my guide in the development adventure of this project, 
+during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.youtube.com/watch?v=HYv55DhgTuA)** tutorial 👌<br><br><br>
 
+
+
+📌 **LIVE DEMO: _https://blog.gonza.uno/_**
+
+[![Blog Demo Preview](https://postimg.cc/F1Zh1qvT)
+
+<br><br><br>
+
+
+
+
+
+#### Creation of the React project template using Vite:
 ```bash
-npx create-next-app --tailwind with-tailwindcss-app
+npm create vite@latest ./ -- --template react
 ```
 
-```bash
-yarn create next-app --tailwind with-tailwindcss-app
-```
 
-```bash
-pnpm create next-app --tailwind with-tailwindcss-app
-```
