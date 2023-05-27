@@ -9,9 +9,9 @@ during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.
 
 
 
-📌 **LIVE DEMO: _https://blog.gonza.uno/_**
+📌 **LIVE DEMO [UNDER CONSTRUCTION]: _https://blog.gonza.uno/_**
 
-[![Blog Demo Preview](https://i.postimg.cc/VLyvZQVP/demo-preview.png)](https://i.postimg.cc/VLyvZQVP/demo-preview.png)
+[![Blog Demo Preview](https://i.postimg.cc/3JCZXcrT/under-construction.png)](https://i.postimg.cc/3JCZXcrT/under-construction.png)
 
 <br><br><br>
 
