@@ -11,18 +11,18 @@ export default function Home() {
           <title>Blog</title>
           <link rel='icon' href='/react-logo.png'/>
         </Head>
-        <nav className='w-full h-[110px] flex items-center fixed top-0 z-20 bg-[#050816]'>
+        <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816]'>
           <a 
               href="https://www.gonza.uno/" 
-              className='pl-[65px]'
+              className='ml-[20px] md:ml-[65px]'
               target="_blank"
 
           >
-              <img src='/logo.png' alt="logo" className='h-[25px]' /> 
+              <img src='/logo.png' alt="logo" className='h-[20px] md:h-[25px]' /> 
           </a>
           <a 
-              href="https://github.com/gonzagramaglia/blog" 
-              className='ml-auto mr-[65px]'
+              href="https://github.com/gonzagramaglia/links" 
+              className='ml-auto mr-[20px] md:mr-[65px]'
               target="_blank"
           >
               <FaGithub size={23} style={{ color: '#a9a6c3' }} />
