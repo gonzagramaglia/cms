@@ -1,4 +1,4 @@
-## Hey, I'm **[gonza](https://www.gonza.uno/)**
+## Hey, I'm **[gonza](https://www.gonza.gr/)**
 It's good to see that you have been interested in understanding this repository.<br><br>
 
 
@@ -9,7 +9,7 @@ during the **[Build and Deploy THE BEST Modern Blog App with React](https://www.
 
 
 
-📌 **LIVE DEMO [UNDER CONSTRUCTION]: _https://blog.gonza.uno/_**
+📌 **LIVE DEMO [UNDER CONSTRUCTION]: _https://blog.gonza.gr/_**
 
 [![Blog Demo Preview](https://i.postimg.cc/3JCZXcrT/under-construction.png)](https://i.postimg.cc/3JCZXcrT/under-construction.png)
 
