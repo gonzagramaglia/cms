@@ -1,20 +1,11 @@
-import { FaGithub } from 'react-icons/fa';
 import Head from 'next/head'
 
 import { PostCard, Categories, PostWidget } from '@/components';
+import { getPosts } from '../services';
 
-const posts = [
-  {
-    title: 'TailwindCSS',
-    excerpt: 'Learn TailwindCSS basics'
-  },
-  {
-    title: 'Habits',
-    excerpt: 'How to build great Habits'
-  }
-];
+ 
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <>
         <Head>
@@ -39,4 +30,13 @@ export default function Home() {
         </div>
     </>
   )
+}
+
+export async function getStaticProps() {
+  const posts  = (await getPosts()) || [];
+  return {
+    props: {
+      posts: posts,
+    },
+  };
 }
