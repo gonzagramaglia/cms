@@ -1,10 +1,12 @@
-  import { FaGithub } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import Head from 'next/head'
+
+import { PostCard, Categories, PostWidget } from '@/components';
 
 const posts = [
   {
     title: 'TailwindCSS',
-    excerpt: 'Learn TailwindCSS'
+    excerpt: 'Learn TailwindCSS basics'
   },
   {
     title: 'Habits',
@@ -40,15 +42,13 @@ export default function Home() {
           <div className='grid grid-cols-1 lg:grid-cols-12 gap-12 '>
             <div className='lg:col-span-8 col-span-1'>
               {posts.map( (post, index) => (
-                  <div>
-                    <h2 className='font-bold '>{post.title}</h2>
-                    <h6>{post.excerpt}</h6>
-                  </div>
+                  <PostCard post={post} key={post.title} />
                 ))}
             </div>
             <div className='lg:col-span-4 col-span-1 ' >
               <div className='lg:sticky relative top-8'>
-
+                <PostWidget />
+                <Categories />
               </div>
 
             </div>
