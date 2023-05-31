@@ -9,7 +9,7 @@ export default function Home() {
     <>
         <Head>
           <title>Blog</title>
-          <link rel='icon' href='/react-logo.png'/>
+          <link rel='icon' href='https://i.postimg.cc/nzNvhVb8/react-logo.png'/>
         </Head>
         <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816]'>
           <a 
@@ -18,7 +18,7 @@ export default function Home() {
               target="_blank"
 
           >
-              <img src='/logo.png' alt="logo" className='h-[20px] md:h-[25px]' /> 
+              <img src='https://i.postimg.cc/9z5zvr3M/logo.png' alt="logo" className='h-[20px] md:h-[25px]' /> 
           </a>
           <a 
               href="https://github.com/gonzagramaglia/links" 
