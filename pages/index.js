@@ -31,7 +31,7 @@ export default function Home() {
               <img src='https://i.postimg.cc/9z5zvr3M/logo.png' alt="logo" className='h-[20px] md:h-[25px]' /> 
           </a>
           <a 
-              href="https://github.com/gonzagramaglia/links" 
+              href="https://github.com/gonzagramaglia/blog" 
               className='ml-auto mr-[20px] md:mr-[65px]'
               target="_blank"
           >
