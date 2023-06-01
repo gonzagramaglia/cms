@@ -8,7 +8,7 @@ const categories = [ { name: "Web Development", slug: "webdev" }, { name: "Healt
 const Header = () => {
   return (
     <>
-        <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816]'>
+        <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816] fixed z-10'>
           <a 
               href="https://www.gonza.gr/" 
               className='ml-[20px] md:ml-[65px]'
@@ -26,7 +26,7 @@ const Header = () => {
           </a>
         </nav>
         <div className='container mx-auto px-10 mb-8' >
-            <div className='border-b w-full inline-block border-blue-400 py-8' >
+            <div className='border-b w-full inline-block border-blue-400 py-8 mt-28' >
                 <div className='md:float-left block'>
                     <Link href="/">
                         <span className='cursor-pointer font-bold text-4xl text-white' >
