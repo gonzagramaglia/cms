@@ -36,7 +36,7 @@ function PostWidget({ categories, slug }) {
                         </div>
                         <div className='flex-grow ml-4' >
                             <Link href={`/post/${post.slug}`} key={post.title} className='text-md' >
-                                { post.title.substring(0, post.title.indexOf(":")) }
+                                { post.title.includes(":") ? post.title.substring(0, post.title.indexOf(":")) : post.title }
                             </Link>
                             <p className='text-gray-500 font-xs' >
                                 {moment(post.createdAt).format('MMM DD, YYYY')}
