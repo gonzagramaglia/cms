@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816]'>
+            <nav id='navbar' className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816] fixed z-20'>
             <a 
                 href="https://www.gonza.gr/" 
                 className='ml-[20px] md:ml-[65px]'
@@ -33,7 +33,7 @@ const Header = () => {
                 <FaGithub size={23} style={{ color: '#a9a6c3' }} />
             </a>
             </nav>
-            <div className='container mx-auto px-10 mb-8' >
+            <div className='container mx-auto px-10 mb-8 pt-28' >
                 <div className='border-b w-full inline-block border-blue-400 py-8' >
                     <div className='md:float-left block'>
                         <Link href="/">
